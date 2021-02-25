@@ -1,6 +1,6 @@
-document.getElementById('button').addEventListener('click',report)
+document.getElementById('button').addEventListener('click', report)
 document.getElementById('bg')
-.style.backgroundColor = 'purple'
+  .style.backgroundColor = 'purple'
 
 function report () {
   alert(document.getElementById('input').value)
